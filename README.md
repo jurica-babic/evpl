@@ -21,26 +21,18 @@ After you build the project (see the `installation instructions` below), use the
     java -jar smartparkinglot-0.0.9-SNAPSHOT-jar-with-dependencies.jar --help
 
     usage: sim.jar
-     -a,--area <arg>                    area you want to use (e.g. Docklands -                               524 spots)
+     -a,--area <arg>                    area you want to use (e.g. Docklands - 524 spots)
      -cf,--chargingFee <arg>            premium price for EV spots
      -cs,--chargerSpeed <arg>           Charger speed in kW to be used.
-     -ev,--evParkingSpots <arg>         number of parking spots with an EV
-                                    charger
-     -h,--help                          displays a help
-     -long,--longitudinalTracking       if set, simulator will have per time
-                                    slot values, otherwise, only aggregate
-                                    values will be available
+     -ev,--evParkingSpots <arg>         number of parking spots with an EV charger
+     -h,--help                          displays help
+     -long,--longitudinalTracking       if set, simulator will have per time slot values, otherwise, only aggregate values will be available
      -p,--parkingPolicyType <arg>       parking policy to be used:
-                                    PARKING_LOT_DEDICATED_CHARGING,
-                                    EV_EXCLUSIVE_SPOTS, FREE_FOR_ALL
-     -pd,--printDiagnostics             if set, simulator will print some
-                                    diagnostics on standard error (i.e., a
-                                    batch processing duration).
-     -r,--repetitions <arg>             number of repetitions of a same
-                                    scenario with different seed values
+                                    PARKING_LOT_DEDICATED_CHARGING, EV_EXCLUSIVE_SPOTS, FREE_FOR_ALL
+     -pd,--printDiagnostics             if set, simulator will print some diagnostics on standard error (i.e., a batch processing duration).
+     -r,--repetitions <arg>             number of repetitions of a same scenario with different seed values
      -s,--evShare <arg>                 the proportion of cars that are EVs
-     -spots,--totalParkingSpots <arg>   total number of parking spots in EVPL
-                                    (EV and non-EV spots combined)
+     -spots,--totalParkingSpots <arg>   total number of parking spots in EVPL (EV and non-EV spots combined)
 
 ## Installation instructions
 > Make sure to install Maven 3.8.1+ and Java 1.8+.

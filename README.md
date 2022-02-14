@@ -50,4 +50,4 @@ After you build the project (see the `installation instructions` below), use the
 3. use the *fat jar* (cca 22MB) to run the experiements
 
 ## License
-See `LICENSE.md` for information about the license.
+See the `LICENSE` file for information about the license.

@@ -34,6 +34,15 @@ After you build the project (see the `installation instructions` below), use the
      -s,--evShare <arg>                 the proportion of cars that are EVs
      -spots,--totalParkingSpots <arg>   total number of parking spots in EVPL (EV and non-EV spots combined)
 
+At minimum, you need to provide the following options: a, ev, spots, cf, s, r, p.
+
+Once the simulation completes, you will get the simulation output on the standard output stream. Most likely you will want to redirect that output to the text file.
+
+Typical workflow:
+ - run multiple simulations with many repetitions and with different parameters (dependent on the research question you will)
+ - each simulation run (i.e., each "java -jar ..." command) will output results on the system output stream which you will redirect either to some processing pipeline or to the text file
+ - analyse the results on the aggregate level. 
+
 ## Installation instructions
 > Make sure to install Maven 3.8.1+ and Java 1.8+.
 

@@ -14,7 +14,7 @@ Before you use the simulator, please make sure to read the paper:
 
 > If you use the simulator in your academic work, you **have to cite the aforementioned paper in your publications**.
 
-## Run
+## Input
 
 After you build the project (see the `installation instructions` below), use the *fat jar* (`target` folder) to run the simulation experiement. The best place to start is to run the program with the `--help` option so that you get a sense of all the available options:
 
@@ -36,11 +36,12 @@ After you build the project (see the `installation instructions` below), use the
 
 At minimum, you need to provide the following options: a, ev, spots, cf, s, r, p.
 
-Once the simulation completes, you will get the simulation output on the standard output stream. Most likely you will want to redirect that output to the text file.
+## Output
+Once the simulation completes, you will get the simulation output on the *standard output stream*. Most likely you will want to redirect that output to the text file.
 
-Typical workflow:
+## Typical workflow
  - run multiple simulations with many repetitions and with different parameters (dependent on the research question you will)
- - each simulation run (i.e., each "java -jar ..." command) will output results on the system output stream which you will redirect either to some processing pipeline or to the text file
+ - each simulation run (i.e., each `java -jar ...` command) will output results on the system output stream which you will redirect either to some processing pipeline or to the text file
  - analyse the results on the aggregate level. 
 
 ## Installation instructions

@@ -42,7 +42,7 @@ Once the simulation completes, you will get the simulation output on the *standa
 ## Typical workflow
  - run multiple simulations with many repetitions and with different parameters (dependent on the research question you will)
  - each simulation run (i.e., each `java -jar ...` command) will output results on the system output stream which you will redirect either to some processing pipeline or to the text file
- - analyse the results on the aggregate level. 
+ - analyse the results on the aggregate level. You will notice that the output is in the table-like format so any of your favorite data science tools will most likely fit well.
 
 ## Installation instructions
 > Make sure to install Maven 3.8.1+ and Java 1.8+.

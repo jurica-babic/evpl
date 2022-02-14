@@ -1,0 +1,24 @@
+areaname	no_hours	percentage	streetmarkers
+11	Princes Theatre	8655	0.988	221
+3	City Square	8566	0.9779	111
+2	Chinatown	8533	0.9741	91
+20	The Mac	8423	0.9615	208
+17	Spencer	8104	0.9251	123
+4	County	8090	0.9235	143
+13	RACV	7974	0.9103	87
+8	Hyatt	7728	0.8822	174
+1	Banks	7683	0.8771	114
+16	Southbank	7358	0.84	610
+7	Hardware	7290	0.8322	117
+12	Queensberry	7143	0.8154	836
+21	Titles	6828	0.7795	243
+5	Courtney	6622	0.7559	272
+15	Rialto	6620	0.7557	121
+14	Regency	6415	0.7323	281
+22	Victoria Market	6294	0.7185	345
+18	Supreme	5889	0.6723	80
+10	Magistrates	5703	0.651	179
+19	Tavistock	4338	0.4952	14
+6	Docklands	2896	0.3306	88
+9	Jolimont	1853	0.2115	470
+23	West Melbourne	1129	0.1289	7

@@ -16,7 +16,7 @@ Before you use the simulator, please make sure to read the paper:
 
 ## Run
 
-After you build the project (see the `installation instructions` below), use the *fat jar* (`target` folder) to run the simulation experiement. The best place to start is to run the program with the `--help` option so that you get the a sense of all the available options:
+After you build the project (see the `installation instructions` below), use the *fat jar* (`target` folder) to run the simulation experiement. The best place to start is to run the program with the `--help` option so that you get a sense of all the available options:
 
     java -jar smartparkinglot-0.0.9-SNAPSHOT-jar-with-dependencies.jar --help
 
